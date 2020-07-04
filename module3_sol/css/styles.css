@@ -12,7 +12,7 @@ body {
   border: 0;
 }
 .navbar-brand {
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 .navbar-brand h1 { /* FOOD, LLC */
@@ -91,4 +91,10 @@ body {
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 1.5em;
+}
+
+@media (min-width: 767px) {
+  .navbar-brand {
+  padding-top: 15px;
+}
 }
